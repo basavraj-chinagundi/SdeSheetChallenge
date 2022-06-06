@@ -15,3 +15,24 @@ vector<int> Solution::repeatedNumber(const vector<int> &A) {
     }
     return {a,b};
 }
+//Missing
+//         int n = nums.size();
+//         int sum = 0;
+//         for (int i =0; i<=n; i++){
+//             sum+=i;
+//         }
+//         int temp = 0;
+//         for (auto it:nums){
+//             temp+=it;
+//         }
+//         return sum-temp;
+
+//Duplicate
+//      sort(nums.begin(),nums.end());
+//      for(int i=1;i<nums.size();i++){
+//          if(nums[i-1]==nums[i]){
+//              return nums[i];
+//          }
+//      }
+//         return -1;
+//     }
